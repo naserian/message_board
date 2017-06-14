@@ -13,8 +13,8 @@
 
     <ul>
   {{#each model as |questions|}}
-    {{question-1 questions=questions destroyQuestions='destroyQuestions'}}
+    {{question question=question update='update' destroyQuestion='destroyQuestion'}}
   {{/each}}
 </ul>
-{{new-question saveQuestion1="saveQuestion2"}}
+{{new-question saveQuestion2="saveQuestion3"}}
   </p>

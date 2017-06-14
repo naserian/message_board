@@ -1,0 +1,14 @@
+{ "questions": [{
+    "author": "Veruca Salt",
+    "question": "Who created the internet?",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Crane_estate_(5).jpg"
+  }, {
+    "author": "Kui Roberts",
+    "question": "What is the dark web?",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Alfonso_13_Highrise_Tegucigalpa.jpg"
+  }, {
+    "author": "Diana Linda",
+    "question": "Who created github?",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Wheeldon_Apartment_Building_-_Portland_Oregon.jpg"
+  }]
+}

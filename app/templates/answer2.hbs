@@ -1,6 +1,29 @@
 <!---create a navbar or a header that contains the name of my site and a link to the homepage-->
 <div class="container">
   <nav class="navbar navbar-toggleable-md navbar-light bg-faded">
-    <a class="navbar-brand" href="#">{{#index}}Index{{/index}}</a>
+    <a class="navbar-brand" href="#">MESSAGE-BOARD WEBSITE</a>
+
   </nav>
 </div>
+
+{{#link-to 'index'}}HOMEPAGE{{/link-to}}
+
+<p>WHAT IS FIREBASE</p>
+
+<p>By Priyanka Varma</p>
+<p>
+  Firebase is a technology that permits you to make web applications with no server-side programming so that development turns out to be quicker and easier. With Firebase, we don't have to stress over-provisioning servers or building REST APIs with just a little bit of configuration; we can give Firebase a chance to take every necessary step: storing data, verifying users, and implementing access rules.
+
+It supports the web, iOS, OS X, and Android clients. Applications using Firebase can just use and control data, without having to think about how data would be stored, and synchronized across various examples of the application in real time. There is no need to write server side code, or to deploy a complex server framework to get an app started with Firebase.</p>
+
+<form class="form-inline">
+  <div class="form-group">
+    <label class="sr-only">Question2</label>
+    <p class="form-control-static">Feel free to ask any other question</p>
+  </div>
+  <div class="form-group mx-sm-3">
+    <label for="inputPassword2" class="sr-only">Question</label>
+    <input type="text" class="form-control" id="inputPassword2" placeholder="text">
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>

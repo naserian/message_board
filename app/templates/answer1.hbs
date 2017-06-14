@@ -1,6 +1,29 @@
 <!---create a navbar or a header that contains the name of my site and a link to the homepage-->
 <div class="container">
   <nav class="navbar navbar-toggleable-md navbar-light bg-faded">
-    <a class="navbar-brand" href="#">{{#index}}Index{{/index}}</a>
+    <a class="navbar-brand" href="#">MESSAGE-BOARD WEBSITE</a>
+
   </nav>
 </div>
+
+{{#link-to 'index'}}HOMEPAGE{{/link-to}}
+
+<p>WHAT IS INTERNET?</p>
+
+<p>By Vangie Beal</p>
+<p>
+The Internet is generally defined as a global network connecting millions of computers. More than 190 countries are linked into exchanges of data, news and opinions.
+The Internet is Decentralized
+Unlike online services, which are centrally controlled, by design, the Internet is decentralized. Each Internet computer, called a host, is independent.  Operators can choose which Internet services to use and which local services to make available to the global Internet community. Remarkably, this anarchy by design works exceedingly well. There are a variety of ways to access the Internet. Most online services offer access to some Internet services. It is also possible to gain access through a commercial Internet Service Provider (ISP).</p>
+
+<form class="form-inline">
+  <div class="form-group">
+    <label class="sr-only">Question2</label>
+    <p class="form-control-static">Feel free to ask any other question</p>
+  </div>
+  <div class="form-group mx-sm-3">
+    <label for="inputPassword2" class="sr-only">Question</label>
+    <input type="text" class="form-control" id="inputPassword2" placeholder="text">
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>

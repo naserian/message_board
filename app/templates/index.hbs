@@ -1,10 +1,20 @@
 
-<h1>Welcome to the message-board interactive website.</h1>
+<h2>Welcome to the message-board interactive website.</h2>
 
 <p>This is a website whereby you can ask any question you feel like.
-  The answers will readily be provided by the website.Feel free to ask any question</p>
-  
+  The answers will be readily provided by the website.Feel free to ask any question</p>
 
-  {{#link-to 'answer1'}}Answer1{{/link-to}}
-  {{#link-to 'answer2'}}Answer2{{/link-to}}
-  {{#link-to 'answer3'}}Answer3{{/link-to}}
+  <p>Below is a sample of questions that you could ask:
+    <ul>
+      <li>{{#link-to 'answer1'}}1.What is the internet?{{/link-to}}</li>
+      <li>{{#link-to 'answer2'}}2.What is firebase?{{/link-to}}</li>
+      <li>{{#link-to 'answer3'}}3.What is git used for?{{/link-to}}</li>
+    </ul>
+
+    <ul>
+  {{#each model as |questions|}}
+    {{question-1 questions=questions destroyQuestions='destroyQuestions'}}
+  {{/each}}
+</ul>
+{{new-question saveQuestion1="saveQuestion2"}}
+  </p>
